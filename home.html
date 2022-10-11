@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style type="text/css">
+	*,*:before,*:after{
+		text-decoration: none;
+	}
+
+	html{
+		height: 75%;
+	}
+
+	body{
+		background-color: black;
+		height: 92.3%;
+	}
+	
+	#app{
+		display: inline-block;
+		position: relative;
+		color: white;
+		font-family: Monospace 11 ;
+		justify-content: safe center;
+		font-size: 90%;
+		font: bolder;
+		left: 36.4%;
+		top: 12%;
+	}
+
+	h1{
+		color: white;
+		animation: 5s;
+		animation-name: slidein;
+		
+	}
+    @keyframes slidein
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;			
+    }
+
+	.aa{
+		font-family: 'Arial Narrow Bold', Helvetica, sans-serif, Impact;
+        font-style: oblique;
+		justify-content: safe center;
+		font-size: 15px;
+		font: bolder;
+		color: white;
+		position: absolute;
+		bottom: 380px;
+		right: 3px;
+		top: 3px;
+	}
+	
+	.all{
+		display: inline-block;
+		position: relative;
+		width: 100%;
+		height: 120%;
+	}
+
+	.ponto{
+		position: absolute;
+		bottom: 380px;
+		right: 20px;
+		top: 10px;
+		animation-name: pontoveloz;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+	}
+
+	#text{
+		color: white;
+		text-decoration-style: monospace;
+		
+	}
+
+	#q0{
+		background: red;
+		width: 30px;
+		height: 7px;
+		}
+
+		@keyframes pontoveloz {
+			from{
+				background-color: black;
+			}
+
+			25%{
+				background-color: red;
+			}
+
+			50%{
+				background-color: black;
+			}
+
+			75%{
+				background-color: red;
+			}
+
+			100%{
+				background-color: black;
+			}
+		}
+
+</style>
+
+	<meta charset="utf-8">
+	<title></title>
+</head>
+
+<body>
+
+	<p id ='app'>  </p>
+	<!--chamando o gráfico que será representado no site:-->
+    <center><iframe src = "./emissions.html" height="800" width="1200" frameBorder="0"></iframe><</center>
+
+	<div class='all' class='container' d>
+
+		<div id='popup' style="display: none;">
+		</div>
+
+		<p id='Rec' onmouseout='Rec(this, "REC")' class="aa">REC</p>
+
+		<div id='q0' class="ponto">
+		</div>
+
+		<div class='container' id='center_buttons' >
+			
+		
+		</div>
+			
+	</div>
+</body>
+</html>
