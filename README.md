@@ -1,5 +1,5 @@
 # graphic_online.github.io
 
 # Método: <h1>
-  ## 1.siga o tutorial: <h2>
+ *siga o tutorial:
    https://www.youtube.com/watch?v=MSAFhbpOQag 
